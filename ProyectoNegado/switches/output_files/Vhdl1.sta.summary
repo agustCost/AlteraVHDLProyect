@@ -1,0 +1,233 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk1Mhz:inst22|out_internal'
+Slack : -3.196
+TNS   : -89.032
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.985
+TNS   : -159.481
+
+Type  : Slow 1200mV 85C Model Setup 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -2.627
+TNS   : -39.021
+
+Type  : Slow 1200mV 85C Model Setup 'clk_1hz:inst6|tick_internal'
+Slack : -2.505
+TNS   : -195.985
+
+Type  : Slow 1200mV 85C Model Setup 'btn'
+Slack : -0.310
+TNS   : -0.615
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.085
+TNS   : -0.178
+
+Type  : Slow 1200mV 85C Model Hold 'clk1Mhz:inst22|out_internal'
+Slack : 0.209
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'btn'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_1hz:inst6|tick_internal'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ClockDivider:inst29|clk_5Hz_int'
+Slack : 0.848
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk1Mhz:inst22|out_internal'
+Slack : -1.614
+TNS   : -11.298
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_1hz:inst6|tick_internal'
+Slack : -0.580
+TNS   : -43.773
+
+Type  : Slow 1200mV 85C Model Removal 'clk_1hz:inst6|tick_internal'
+Slack : 0.582
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk1Mhz:inst22|out_internal'
+Slack : 2.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -107.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_1hz:inst6|tick_internal'
+Slack : -1.000
+TNS   : -180.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk1Mhz:inst22|out_internal'
+Slack : -1.000
+TNS   : -52.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -1.000
+TNS   : -16.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk1Mhz:inst22|out_internal'
+Slack : -2.780
+TNS   : -74.323
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.516
+TNS   : -131.428
+
+Type  : Slow 1200mV 0C Model Setup 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -2.240
+TNS   : -33.253
+
+Type  : Slow 1200mV 0C Model Setup 'clk_1hz:inst6|tick_internal'
+Slack : -2.123
+TNS   : -156.919
+
+Type  : Slow 1200mV 0C Model Setup 'btn'
+Slack : -0.172
+TNS   : -0.341
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.082
+TNS   : -0.199
+
+Type  : Slow 1200mV 0C Model Hold 'btn'
+Slack : 0.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk1Mhz:inst22|out_internal'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_1hz:inst6|tick_internal'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ClockDivider:inst29|clk_5Hz_int'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk1Mhz:inst22|out_internal'
+Slack : -1.325
+TNS   : -9.275
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_1hz:inst6|tick_internal'
+Slack : -0.374
+TNS   : -13.627
+
+Type  : Slow 1200mV 0C Model Removal 'clk_1hz:inst6|tick_internal'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk1Mhz:inst22|out_internal'
+Slack : 1.923
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -107.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_1hz:inst6|tick_internal'
+Slack : -1.000
+TNS   : -180.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk1Mhz:inst22|out_internal'
+Slack : -1.000
+TNS   : -52.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -1.000
+TNS   : -16.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk1Mhz:inst22|out_internal'
+Slack : -1.400
+TNS   : -28.625
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.290
+TNS   : -52.395
+
+Type  : Fast 1200mV 0C Model Setup 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -1.061
+TNS   : -14.989
+
+Type  : Fast 1200mV 0C Model Setup 'clk_1hz:inst6|tick_internal'
+Slack : -1.035
+TNS   : -37.169
+
+Type  : Fast 1200mV 0C Model Setup 'btn'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.149
+TNS   : -0.421
+
+Type  : Fast 1200mV 0C Model Hold 'clk1Mhz:inst22|out_internal'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'btn'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_1hz:inst6|tick_internal'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ClockDivider:inst29|clk_5Hz_int'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk1Mhz:inst22|out_internal'
+Slack : -0.531
+TNS   : -3.717
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_1hz:inst6|tick_internal'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk_1hz:inst6|tick_internal'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk1Mhz:inst22|out_internal'
+Slack : 1.259
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -113.460
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'btn'
+Slack : -3.000
+TNS   : -7.824
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_1hz:inst6|tick_internal'
+Slack : -1.000
+TNS   : -180.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk1Mhz:inst22|out_internal'
+Slack : -1.000
+TNS   : -52.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ClockDivider:inst29|clk_5Hz_int'
+Slack : -1.000
+TNS   : -16.000
+
+------------------------------------------------------------

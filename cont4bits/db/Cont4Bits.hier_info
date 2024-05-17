@@ -1,0 +1,65 @@
+|final
+seg[6] <= Deco7Seg:inst2.seg[6]
+seg[5] <= Deco7Seg:inst2.seg[5]
+seg[4] <= Deco7Seg:inst2.seg[4]
+seg[3] <= Deco7Seg:inst2.seg[3]
+seg[2] <= Deco7Seg:inst2.seg[2]
+seg[1] <= Deco7Seg:inst2.seg[1]
+seg[0] <= Deco7Seg:inst2.seg[0]
+rst => Cont4Bits:inst.rst
+clk => Cont4Bits:inst.clk
+
+
+|final|Deco7Seg:inst2
+N[0] => Mux0.IN19
+N[0] => Mux1.IN19
+N[0] => Mux2.IN19
+N[0] => Mux3.IN19
+N[0] => Mux4.IN19
+N[0] => Mux5.IN19
+N[0] => Mux6.IN19
+N[1] => Mux0.IN18
+N[1] => Mux1.IN18
+N[1] => Mux2.IN18
+N[1] => Mux3.IN18
+N[1] => Mux4.IN18
+N[1] => Mux5.IN18
+N[1] => Mux6.IN18
+N[2] => Mux0.IN17
+N[2] => Mux1.IN17
+N[2] => Mux2.IN17
+N[2] => Mux3.IN17
+N[2] => Mux4.IN17
+N[2] => Mux5.IN17
+N[2] => Mux6.IN17
+N[3] => Mux0.IN16
+N[3] => Mux1.IN16
+N[3] => Mux2.IN16
+N[3] => Mux3.IN16
+N[3] => Mux4.IN16
+N[3] => Mux5.IN16
+N[3] => Mux6.IN16
+seg[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|final|Cont4Bits:inst
+rst => cuenta[0].ACLR
+rst => cuenta[1].ACLR
+rst => cuenta[2].ACLR
+rst => cuenta[3].ACLR
+clk => cuenta[0].CLK
+clk => cuenta[1].CLK
+clk => cuenta[2].CLK
+clk => cuenta[3].CLK
+salida[0] <= cuenta[0].DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= cuenta[1].DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= cuenta[2].DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= cuenta[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

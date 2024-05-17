@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Deco7Seg is
+port(
+	N:in std_logic_vector(3 downto 0);
+	seg:out std_logic_vector(0 to 6)
+	);
+end entity;
+
+architecture bhv of deco7seg is
+signal sal:std_logic_vector(0 to 6);
+begin
+		process(N) begin
+			case N is
+				when "0000" =>sal<= "1111110";
+				when "0001" =>sal<= "0110000";
+				when "0010" =>sal<= "1101101";
+				when "0011" =>sal<= "1111001";
+				when "0100" =>sal<= "0110011";
+				when "0101" =>sal<= "1011011";
+				when "0110" =>sal<= "1011111";
+				when "0111" =>sal<= "1110000";
+				when "1000" =>sal<= "1111111";
+				when "1001" =>sal<= "1110011";
+				when others =>sal<= "0000001";
+			end case;
+		end process;
+		seg <= not(sal);
+end architecture;		

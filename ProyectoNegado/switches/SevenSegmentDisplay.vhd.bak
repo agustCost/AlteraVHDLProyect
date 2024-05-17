@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+
+entity SevenSegmentDisplay is
+	Port(
+		clk : in STD_LOGIC;
+		reset : in STD_LOGIC;
+		binary_input : in STD_LOGIC_VECTOR(3 downto 0)
+		
+	);
+end SevenSegmentDisplay;
+
+architecture Behavioral of SevenSegmentDisplay is
+	signal segment_data : STD_LOGIC_VECTOR(13 downto 0);
+	
+begin
+	process(clk, reset, binary_input)
+		begin	
+			if reset = '1' then
+				segment_data <= (others => '0');
+				elsif rising_edge(clk) then 
+					when "0000" => segment_output <= "00000001111110";
+					when "0001" => segment_output <= "00000000110000";
+					when "0010" => segment_output <= "00000001101101";
+					when "0011" => segment_output <= "00000001111001";
+					when "0100" => segment_output <= "00000000110011";
+					when "0101" => segment_output <= "00000001011011";
+					when "0110" => segment_output <= "00000001011111";
+					when "0111" => segment_output <= "00000001110000";
+					when "1000" => segment_output <= "00000001111111";
+					when "1001" => segment_output <= "00000001110011";
+					when "1010" => segment_output <= "01100001111110";
+					when others => segment_output <= "11111111111111";
+			end if;
+		end process;
+		
+		segment_output <= segment_data;
+		
+end Behavioral;
